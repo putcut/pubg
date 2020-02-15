@@ -42,24 +42,28 @@
 #### keys.py
 ↑Googleスプレッドシートのキーとかをまとめたもの。（プライベートなものなのでリポジトリには加えてません。）  
 筆者はkeys.pyに以下変数を定義して動かしてます。
+
 - spreadsheetkey:認証用jsonファイル
 - json_keyfile:読み込むGoogleスプレッドシートのキー（スプレッドシートファイル名でもいけるらしい）
+
 ※（参考）[Google スプレッドシートをpythonで操作する](https://qiita.com/Hidekazu-Karino/items/5201fce7249693357602)
 
 #### Font
-`# For Print Japanese`部分
+`# For Print Japanese`部分  
 matplotlibは日本語出力回りがよろしくないようなので、日本語が出力できるフォントをダウンロードして指定してやる。  
-筆者はTakaoフォントをダウンロードして指定してます。
+筆者はTakaoフォントをダウンロードして指定してます。  
 ※環境によってさまざまかもしれないのでGoogleに質問するのが良いと思います。
 
 #### Googleスプレッドシート
 以下のシートを持つGoogleスプレッドシートを作成する。
+
 ##### landmark
-チーム名と各マップのランドマーク/サブサンドマーク（例えば以下だとDEMOのようなマップがでます。）
+チーム名と各マップのランドマーク/サブサンドマークをまとめたもの  
+（例えば以下だとDEMOのようなマップがでます。）
 ![landmark_sheet](https://user-images.githubusercontent.com/16263574/74584881-f303cc80-5011-11ea-8c08-4df91fa91bac.png)
 
 ##### roster
-出力するチーム
+出力するチームを書いておく  
 ![roster_sheet](https://user-images.githubusercontent.com/16263574/74584905-36f6d180-5012-11ea-92f6-9bd9a794be6a.png)
 
 ## Usage

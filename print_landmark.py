@@ -72,7 +72,7 @@ for team in teams:
 
         else: 
           ax.text(pos['x'], pos['y'] - (SHIFT*stack.count(landmark[5])), team, fontsize=16, color='yellow', weight='heavy')
-          stack.append(landmark[6])
+          stack.append(landmark[5])
 
           if landmark[6] != '':
             pos = get_erangel_pos(landmark[6])
